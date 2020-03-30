@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_preference"
+            android:icon="@drawable/preference"
+            android:title="個人偏好" />
+        <item
+            android:id="@+id/nav_recommend"
+            android:icon="@drawable/recommend"
+            android:title="今日推薦" />
+        <item
+            android:id="@+id/nav_enshrine"
+            android:icon="@drawable/enshrine"
+            android:title="我的收藏" />
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/search"
+            android:title="食譜大全" />
+        <item
+            android:id="@+id/nav_blacklist"
+            android:icon="@drawable/blacklist"
+            android:title="黑名單" />
+    </group>
+    <item android:title=""/>
+    <item android:title=""/>
+    <item android:title=""/>
+
+    <item
+        android:id="@+id/version"
+        android:title="version: 1.0.0" />
+
+    <!--<item android:title="互動">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="分享" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="聯繫我們" />
+        </menu>
+    </item>-->
+
+</menu>

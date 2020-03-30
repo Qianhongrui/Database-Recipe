@@ -1,0 +1,27 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--item_recipe-->
+    <dimen name="cardview_margin">5dp</dimen>
+    <dimen name="cardview_cardCornerRadius">4dp</dimen>
+    <dimen name="recipe_name_margin">5dp</dimen>
+    <dimen name="recipe_name_size">22sp</dimen>
+    <dimen name="card_height">250dp</dimen>
+    <dimen name="image_size">150dp</dimen>
+    <dimen name="card_padding">15dp</dimen>
+
+    <!--item_step-->
+    <dimen name="step_name_size">20sp</dimen>
+    <dimen name="step_layout_padding">20dp</dimen>
+    <dimen name="step_list_id_width">40dp</dimen>
+
+    <!--fragment_description-->
+    <dimen name="step_title_size">30sp</dimen>
+    <dimen name="description_size">15sp</dimen>
+
+    <dimen name="empty_prompt_size">20sp</dimen>
+    <dimen name="empty_prompt_margin">20dp</dimen>
+    <dimen name="text_space">5dp</dimen>
+</resources>

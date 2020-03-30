@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerLayout"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start"
+    tools:context=".MainActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include layout="@layout/app_bar_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/empty_prompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/empty_prompt_size"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/empty_prompt_margin"/>
+</LinearLayout>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+
+        android:layout_height="match_parent"
+        
+        app:menu="@menu/navigation_menu"
+        app:headerLayout="@layout/navigation_header"
+        android:fitsSystemWindows="true"
+        android:layout_gravity="start">  <!--隱藏使用者可以像用滑動顯示工具列-->
+
+    </android.support.design.widget.NavigationView>
+
+    <com.example.ygl.baking.magic_flash.FlashSearchView
+        android:id="@+id/jjsv_boot"
+        android:layout_width="match_parent"
+        android:layout_height="1000dp"
+        android:gravity="center_vertical"
+        android:windowSoftInputMode="adjustResize" />
+
+</android.support.v4.widget.DrawerLayout>

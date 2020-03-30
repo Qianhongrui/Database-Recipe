@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="255dp"
+    android:layout_margin="@dimen/cardview_margin"
+    app:cardCornerRadius="20dp"
+    android:background="@drawable/touch"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    app:cardPreventCornerOverlap="true"
+    app:cardBackgroundColor="#FFFFF8"
+    app:cardUseCompatPadding="true"
+    app:contentPaddingRight="0dp"
+    app:contentPaddingTop="0dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:padding="@dimen/card_padding">
+
+        <ImageView
+            android:id="@+id/recipe_image_view"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginStart="5dp"
+            android:scaleType="centerCrop"/>
+        <ImageView
+            android:id="@+id/xian"
+            android:src="@drawable/xian"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:layout_marginTop="30dp"
+
+            android:layout_marginStart="-4dp"/>
+
+
+        <TextView
+            android:id="@+id/recipe_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/recipe_name_size"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/recipe_servings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="190dp"
+            android:layout_marginTop="60dp"
+            android:text="@string/Servings" />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="170dp"
+            android:layout_marginTop="155dp">
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/favor"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="13dp"
+                android:clickable="true"
+                android:focusable="true"
+                app:rippleColor="@color/white"
+                app:srcCompat="@drawable/favor_button_selector"
+                tools:ignore="VectorDrawableCompat"
+                app:borderWidth="0dp"
+                app:fabSize="normal" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/hate"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="18dp"
+                android:clickable="true"
+                android:focusable="true"
+                app:borderWidth="0dp"
+                app:fabSize="normal"
+                app:rippleColor="@color/white"
+                app:srcCompat="@drawable/blacklist"
+                tools:ignore="VectorDrawableCompat" />
+        </LinearLayout>
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/mark"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="top|end"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/bookmark" />
+    <ImageView
+        android:id="@+id/margin"
+        android:layout_width="173dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginStart="8.5dp"
+        android:src="@drawable/margin"/>
+</android.support.v7.widget.CardView>

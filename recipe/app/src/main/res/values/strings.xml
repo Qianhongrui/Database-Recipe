@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">饗食譜</string>
+
+    <!--MainActivity-->
+    <string name="Servings">Servings:</string>
+    <string name="net_work_status_key">net_work_status</string>
+    <string name="no_data_no_net_work">無法獲取數據，沒有網絡，請準備好後點我刷新</string>
+    <string name="no_data_server_down">無法獲取數據，服務器出現問題，點我刷新試試</string>
+    <string name="no_data_server_time_out">無法獲取數據，請求超時，點我刷新試試</string>
+    <string name="no_data">無法獲取數據，未知原因</string>
+    <string name="refresh">正在刷新 loading</string>
+    <string name="no_favor">無收藏</string>
+    <string name="no_hate">無黑名單</string>
+
+
+    <!--FullScreenActivity-->
+    <string name="zero_time">00:00</string>
+    <string name="simple_date_format">mm:ss</string>
+    <string name="play_state">PLAYSTATE</string>
+
+    <!--SyncAdapter-->
+    <string name="api_url">http://163.25.101.97/new.json</string>
+    <string name="n">\n</string>
+    <string name="quantity">用量(quantity):</string>
+    <string name="price">价钱(price):</string>
+    <string name="measure">單位(measure):</string>
+    <string name="ingredient">原料(ingredient):</string>
+    <string name="ingredients_title">原料(Ingredients)</string>
+
+    <string name="description_activity_title">Description</string>
+    <string name="step_id">StepId</string>
+    <string name="next_button">下一页(Next)</string>
+
+    <string name="recip_name">RecipeName</string>
+
+    <string name="is_land">IsLand</string>
+
+
+    <string name="open">Open</string>
+
+    <string name="close">Close</string>
+
+
+    <string name="title_1">葷素選擇</string>
+    <string name="title_2">辣    度</string>
+    <string name="title_3">湯菜數量</string>
+    <string name="title_4">人    數</string>
+
+
+    <string name="text_1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Etiam eget ligula eu lectus lobortis condimentum.</string>
+    <string name="clear">清除蒐索記錄</string>
+
+
+    <string-array name="labels">
+        <item>一</item>
+        <item>二</item>
+        <item>三</item>
+        <item>四</item>
+        <item>五</item>
+    </string-array>
+
+</resources>

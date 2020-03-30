@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<litepal>
+    <dbname value="baking" />
+    <version value="4" />
+    <list>
+        <mapping class="com.example.ygl.baking.sql.model.Recipe" />
+        <mapping class="com.example.ygl.baking.sql.model.Step" />
+        <mapping class="com.example.ygl.baking.sql.model.Favor" />
+        <mapping class="com.example.ygl.baking.sql.model.Blacklist" />
+        <mapping class="com.example.ygl.baking.sql.model.Result" />
+    </list>
+</litepal>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="255dp"
+    android:layout_margin="@dimen/cardview_margin"
+    app:cardCornerRadius="20dp"
+    android:background="@drawable/touch"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    app:cardPreventCornerOverlap="true"
+    app:cardBackgroundColor="#FFFFF8"
+    app:cardUseCompatPadding="true"
+    app:contentPaddingRight="0dp"
+    app:contentPaddingTop="0dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:padding="@dimen/card_padding">
+
+        <ImageView
+            android:id="@+id/recipe_image_view"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginStart="5dp"
+            android:scaleType="centerCrop"/>
+        <ImageView
+            android:id="@+id/xian"
+            android:src="@drawable/xian"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:layout_marginTop="30dp"
+
+            android:layout_marginStart="-4dp"/>
+
+
+        <TextView
+            android:id="@+id/recipe_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/recipe_name_size"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/recipe_servings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="190dp"
+            android:layout_marginTop="60dp"
+            android:text="Don't like" />
+
+        <android.support.design.widget.FloatingActionButton
+            app:rippleColor="@color/white"
+            android:id="@+id/cancel_hate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/recipe_image_view"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="22dp"
+            android:clickable="true"
+            app:srcCompat="@drawable/cancel_hate"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="22dp"
+            tools:ignore="RelativeOverlap,VectorDrawableCompat"
+            android:focusable="true" />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
